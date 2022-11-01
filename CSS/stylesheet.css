@@ -1,0 +1,812 @@
+body {
+  font-family: 'Gen Jyuu Gothic';
+}
+a {
+  text-decoration: none;
+  color:#004098;
+}
+/* ヘッダー
+---------------------------------------------------------------------------------------*/
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 100%;
+  z-index: 10;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 2px;
+  z-index: 12;
+}
+.hardoff_logo {
+  margin-right: auto;
+}
+.mail_btn {
+  background-color: #ffffff;
+  width: 150px;
+  height: 50px;
+  border-radius: 50vw;
+  border: 3px solid;
+  border-color: #004098;
+  font-size: 10px;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 12px;
+}
+.mail_btn img {
+  vertical-align: -3px;
+}
+.mail_text,.line_text {
+  font-weight: 900;
+  font-size: 16px;
+}
+.line_btn {
+    background-color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border-radius: 50vw;
+    border: 3px solid;
+    border-color: #004098;
+    font-size: 10px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 12px;
+}
+.line_btn img {
+  vertical-align: -6px;
+}
+.phone_btn {
+  background-color: #004098;
+  width: 225px;
+  height: 52px;
+  border-radius: 50vw;
+  font-size: 10px;
+  text-align: center;
+  margin-right: 10px;
+}
+.phone_btn img {
+  position: relative;
+  top: 14px;
+  margin-right: 9px;
+}
+.phone_text1 {
+  font-weight: 900;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 26px;
+  position: relative;
+  top: -3px;
+}
+.phone_text2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 0px;
+  padding-left: 40px;
+}
+.navlist {
+  text-align: center;
+  background-color: white;
+  height: 45px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 6px;
+  padding-left: 6px;
+  box-shadow: 0px 0px 2px;
+}
+.flame {
+  display: inline;
+  padding: 8px 60px;
+  border-left: 1px solid #B7B7B7;
+  font-weight: 700;
+  font-size: 14px;
+  width: 50%;
+}
+.flame_end {
+  display: inline;
+  padding: 8px 60px;
+  border-right: 1px solid #B7B7B7;
+}
+.main_img img {
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+/* コロナウイルス対策項目
+---------------------------------------------------------------------------------------*/
+.virus_measures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #EEEEEE;
+  width: 85%;
+  height: 360px;
+  margin: 20px auto 0px auto;
+}
+.virus_btn {
+  background-color: #004098;
+  width: 576px;
+  height: 54px;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 175%;
+  color: #ffffff;
+  text-align: center;
+}
+.virus_message {
+  text-align: center;
+  line-height: 2;
+  margin-top: 20px;
+}
+.virus_message_sentence {
+  font-weight: 700;
+  font-size: 20px;
+}
+.virus_imgs {
+  display: flex;
+  align-items: center;
+  margin: 0px auto -15px;
+}
+.virus_img {
+  text-align: center;
+  color: #004098;
+  font-weight: 700;
+  font-size: 12px;
+}
+.virus_img p {
+  margin-top: 2px;
+}
+.virus_img img {
+  width: 130px;
+  height: 130px;
+  margin: 0px 12px;
+}
+/* 首都圏出張買取の説明項目
+---------------------------------------------------------------------------------------*/
+.commentary {
+  font-family: 'Gen Jyuu Gothic';
+  margin: 0 auto;
+  width: 80%;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.commentary_title {
+  text-align: center;
+  margin: 68px;
+}
+.commentary_title_headline {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 2;
+}
+.commentary_title_body {
+  display: inline-block;
+  text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+}
+.business_trip1 img,.business_trip2 img,.business_trip3 img{
+  width: 318px;
+  height: 206px;
+}
+.business_trip1 p ,.business_trip3 p{
+  margin-left: 40px;
+}
+.business_trip2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.business_trip2 p {
+  margin-right: 40px;
+}
+.business_trip1,.business_trip3 {
+  display: flex;
+  align-items: center;
+}
+.business_trip_title1,.business_trip_title2,.business_trip_title3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 3;
+}
+.business_trip_body1,.business_trip_body2,.business_trip_body3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+/* 主な買取品目
+---------------------------------------------------------------------------------------*/
+.sale_items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #EEEEEE;
+  width: 100%;
+  padding-top: 70px;
+  height: 1300px;
+}
+.sale_body {
+  margin-top: -20px;
+  margin-bottom: 45px;
+  width: 64%;
+  line-height: 140%;
+}
+.sale_title {
+  font-weight: 700;
+  font-size: 32px;
+}
+.model_year_btn1 {
+  color: #FFFFFF;
+  background: #8D8E90;
+  border-radius: 30px;
+  width: 76px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 4px 5px;
+  margin-top: 5px;
+  margin-right: 64px;
+  text-align: center;
+}
+.model_year_btn2 {
+  color: #FFFFFF;
+  background: #8D8E90;
+  border-radius: 30px;
+  width: 95px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 4px 5px;
+  margin-top: 5px;
+  margin-right: 45px;
+  text-align: center;
+}
+.note_pc,.desktop_pc,.pc_aroundtools,.pc_parts,.tablet,.business_parts,.large_tv,.movie_parts,.appliances {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border: 0.5px solid #707070;
+  width: 160px;
+  height: 200px;
+}
+.pc_img {
+  padding: 8px;
+  margin-bottom: 0px;
+}
+.purchase_title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.sale_items_list1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 20px;
+}
+.sale_items_list2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 20px;
+  margin-top: 20px;
+}
+.sale_items_list3 {
+  display: flex;
+  margin: 0 auto;
+  gap: 20px;
+  margin-top: 20px;
+}
+.sale_guid1,.sale_guid2 {
+  text-align: center;
+  margin: 0 auto;
+}
+.emphasis_word {
+  color: #F31155;
+}
+.sale_guid_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 80px;
+}
+.sale_guid_body {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+/* 買取実績
+---------------------------------------------------------------------------------------*/
+.sale_record {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.record_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  margin-top: 80px;
+}
+.record_body {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  width: 58%;
+}
+.sale_record_items1,.sale_record_items2,.sale_record_items3 {
+  display: flex;
+  gap: 16px;
+}
+.sale_record_items2,.sale_record_items3 {
+  margin-top: 14px;
+}
+.sale_record_items_list {
+  position: relative;
+  border: 0.5px solid #B7B7B7;
+  border-radius: 6px;
+  padding: 8px;
+}
+.sale_record_items_list p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+.sale_record_btn {
+  position: absolute;
+  border-radius: 6px;
+  color: #F31155;
+  background-color: #ffffff;
+  top: 163px;
+  height: 40px;
+  width: 254px;
+  left: 15px;
+  opacity: 0.8;
+}
+.results_title {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: center;
+  margin: 8px;
+}
+.results_body  {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 130%;
+  padding-left: 12px;
+  letter-spacing: 1px;
+}
+.stuff_comment {
+  width: 268px;
+  height: 48px;
+  background: #EEEEEE;
+  border-radius: 6px;
+  margin: auto;
+}
+.stuff_comment img {
+  padding: 12px 0 0 11px;
+}
+.stuff_comment p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 130%;
+  margin: -30px 0 0px 42px;
+  width: 84%;
+}
+.sale_points {
+  width: 930px;
+  height: 690px;
+  background: rgba(218, 227, 240, 0.5);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.sale_points_title1 {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  margin-top: 28px;
+}
+.sale_points_body1 {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 140%;
+  display: block;
+  text-align: center;
+}
+.sale_points_body2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+}
+.sale_points_body3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.sale_points_body4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.sale_points_explanation {
+  width: 74%;
+}
+.sale_points_explanation img {
+  margin: 0px 15px 0 0;
+  vertical-align: -2px;
+}
+.sale_points_title2 {
+  color: #004098;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+}
+.sale_points_title3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+/* お客様の声
+---------------------------------------------------------------------------------------*/
+.customer_testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #EEEEEE;
+  width: 100%;
+  height: 1070px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+.customer_testimonials_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  margin-bottom: 60px;
+}
+.customer_testimonials_flame1 {
+  background-color: #FFFFFF;
+  border: 1px solid #B7B7B7;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  width: 700px;
+  height: 226px;
+  margin: 12px;
+}
+.customer_testimonials_flame1 img {
+  margin-left: 25px;
+}
+.customer_testimonials_flame2 {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin-left: 30px;
+}
+.customer_status1 {
+  color: #74D062;
+  background-color: #FFFFFF;
+  border: 1px solid #74D062;
+  border-radius: 30px;
+  width: 50px;
+  padding: 4px 0px;
+  text-align: center;
+  position: relative;
+  right: 8px;
+}
+.customer_status2 {
+  color: #F68769;
+  background-color: #FFFFFF;
+  border: 1px solid #F68769;
+  border-radius: 30px;
+  width: 90px;
+  padding: 4px 0px;
+  text-align: center;
+  position: relative;
+  right: 12px;
+}
+.customer_testimonials_body1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20%;
+}
+.customer_testimonials_body2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  width: 104%;
+}
+/* 出張買取の流れ
+---------------------------------------------------------------------------------------*/
+.purchase_flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.purchase_flow_title1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  margin: 88px 0px 0px 0px;
+}
+.flow_step1 {
+  font-family:"Gen Jyuu Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  color: #004098;
+  position: relative;
+  right: 236px;
+  bottom: -58px;
+}
+.purchase_body1 {
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  display: flex;
+  width: 700px;
+  height: 222px;
+  align-items: center;
+  padding: 0px 35px;
+}
+.purchase_flow img {
+  margin: 0px 0 -85px 0;
+}
+.purchase_flow_block {
+  padding-left: 35px;
+}
+.purchase_body2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+.purchase_body3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+/* 出張範囲
+---------------------------------------------------------------------------------------*/
+.business_range {
+  background: #EEEEEE;
+  width: 100%;
+  height: 565px;
+  text-align: center;
+  margin-top: 88px;
+}
+.range_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  margin-top: 65px;
+  margin-bottom: 25px;
+}
+.range_block1 img {
+  margin-right: 20px;
+}
+.range_block1 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+.range_block2 {
+  text-align: left;
+  width: 350px;
+  height: 286px;
+}
+.range_body1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+.renge_link {
+  display: block;
+  text-align: right;
+}
+/* よくあるご質問
+---------------------------------------------------------------------------------------*/
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 46%;
+  line-height: 160%;
+  margin-top: 60px;
+}
+.question_title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  margin-bottom: 50px;
+}
+.question_body1 {
+  border-width: 1px 0px;
+  border-style: dashed;
+  border-color: #B7B7B7;
+  padding: 16px 16px;
+}
+.question_body2 {
+  color: #004098;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+}
+.answer {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 120%;
+}
+.answer_body {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+}
+/* お問い合わせ
+---------------------------------------------------------------------------------------*/
+.contact_us {
+  background: #004098;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 50px;
+  padding-top: 35px;
+  height: 700px;
+  line-height: 30px;
+}
+.contact_title {
+  font-family: 'Gen Jyuu Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+}
+.contact_body1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+}
+.estimate_btn {
+  color: #FFFFFF;
+  background-color: #F31155;
+  padding: 16px 32px;
+  gap: 8px;
+  width: 336px;
+  height: 80px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+}
+.estimate_btn img {
+  position: relative;
+  top: 17px;
+  right: 16px;
+  width: 56px;
+}
+.office_hour_title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+}
+.time {
+  margin-top: -12px;
+}
+.call_btn {
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #004098;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #004098;
+  width: 12%;
+}
+.call_btn img {
+  position: relative;
+  right: 6px;
+}
+.call_number {
+  margin: auto;
+}
+.contact_line_btn {
+  padding: 20px 28px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #004098;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #004098;
+  width: 12%;
+}
+.contact_line_btn img{
+  position: relative;
+  right: 4px;
+}
+.line_title {
+  margin: auto;
+}
+/* フッター
+---------------------------------------------------------------------------------------*/
+.footer_wrap {
+  width: 100%;
+}
+.footer_wrap a {
+  color: #ffffff;
+}
+.footer {
+  color: #ffffff;
+  background: #003575;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+}
+.footer_logo1 {
+  margin-top: 50px;
+}
+.footer_list {
+  padding: 0%;
+  list-style: none;
+  display: flex;
+}
+.footer_list li {
+  padding: 40px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+}
+.twitter_btn {
+  padding: 14px 24px 6px 20px;
+  gap: 4px;
+  width: 369.16px;
+  height: 52px;
+  background: #FFFFFF;
+  border: 3px solid #004098;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 50px;
+}
+.twitter_btn img {
+  position: relative;
+  top: 7px;
+}
+.twitter_btn_body {
+  color: #004098;
+  font-weight: 900;
+  font-size: 17px;
+  letter-spacing: 0.08em;
+}
+.footer_logo2 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  color: #D5D5D5;
+  margin-top: 40px;
+}
